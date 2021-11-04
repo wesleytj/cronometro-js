@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #262626;
+}
+
+.container{
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.display{
+    width: 50%;
+    height: 50%;
+    margin: 20px auto 40px auto;
+    font-size: 90px;
+    line-height: 175%;
+    background-color: white;
+}
+
+p.btn{
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-start{
+    background-color: green;
+}
+
+.btn-pause{
+    background-color: yellow;
+}
+
+.btn-stop{
+    background-color: red;
+}
